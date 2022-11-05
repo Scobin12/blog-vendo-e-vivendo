@@ -1,0 +1,221 @@
+/**/
+
+/*------------------formatando body------------------*/
+body {
+    background: #fff url(../imagens/fundo.png) repeat-x;
+    font: 13px "Lucida Grande", "Lucida Sans Unicode", Arial, Sans-serif;
+}
+
+/*------------------formatando container------------------*/
+#container {
+    margin: 0 auto;
+    width: 1080px;
+}
+
+/*------------------formatando cabecalho------------------*/
+header {
+    margin: 0 20px;
+    padding: 0;
+}
+
+h1 a#vendo {
+    color: #fff;
+}
+
+#nome h2 {
+    color: #fff;
+    float: left;
+    font-size: 0.9em;
+    margin: 17px 0;
+    width: 60px;
+}
+
+#nome h1 {
+    float: left;
+    font-size: 3em;
+}
+
+#nome a {
+    color: #0066ff;
+    text-decoration: none;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+    margin: 48px 0 65px 0px;
+    padding: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    color: #0066ff;
+    font-size: 1.4em;
+    margin-right: 12px;
+    padding: 10px 5px 0 5px;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    border-bottom: 1px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+}
+
+/*------------------formatando conteudo (esquerda)------------------*/
+
+#conteudo {
+    float: left;
+    margin-top: -20px;
+    width: 710px;
+}
+
+#capa {
+    margin-bottom: 23px;
+}
+
+section.fundo-postagem{
+    background-color: rgb(213, 213, 213);
+    border-radius: 20px;
+    float: left;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.postagem h2 {  
+    background-color: rgb(214, 170, 246);
+    border: 2px solid rgb(48, 0, 83);
+    border-radius: 20px;
+    color: #0055d5;
+    margin-bottom: 18px;
+    margin-top: 0;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.postagem p {
+    background-color: #fed3d3;
+    border-radius: 20px; 
+    font-size: 1.3em;
+    margin-bottom: 0;
+    padding: 20px;
+}
+
+.leia-mais{
+    color: rgb(125, 3, 212);
+}
+
+.leia-mais:hover {
+    text-decoration: none;
+}
+
+article h3{
+    background-color: rgb(232, 205, 250);
+    border: 2px solid rgb(48, 0, 83);
+    border-radius: 20px;
+    text-align: center;
+}
+
+
+article.mapa {  
+    float: left;
+    height: 285px;
+    width: 670px;
+}
+
+article.mapa a {
+    color: rgb(125, 3, 212);
+    text-decoration: none;
+}
+
+article.mapa a:hover {
+    color: #0055d5;
+}
+
+
+/*------------------formatando conteudo (direita)------------------*/
+
+aside {
+    float: right;
+    margin-top: -20px;
+    width: 350px;
+}
+
+
+#caixa-lateral {
+    height: 2480px;
+}
+
+#caixa-destino {
+    margin-bottom: 40px;
+    padding-top: 0;
+    position: sticky;
+    top: 60px;
+}
+
+#caixa-destino a{ 
+    color: #0062f6;
+    font-size: 1.3em;
+    list-style: none;
+    text-decoration: none;
+}
+
+#caixa-destino h3 {
+    background-color: rgb(214, 170, 246);
+    border-bottom: 7px solid rgb(48, 0, 83);
+    border-radius: 20px;
+    border-top: 3px solid #fff;
+    margin-bottom: 5px;
+    padding: 10px;
+    text-align: center;
+    text-shadow: 0px -1px #102749;
+}
+
+#caixa-destino h3:hover {
+    background-color: rgb(214, 170, 246);
+    border-bottom: 7px solid #fff;
+    border-top: 3px solid rgb(48, 0, 83);
+    text-shadow: 0px 1px #102749;
+}
+
+#menu-destino ul { 
+    background: #fed3d3;
+    border-radius: 20px;
+    margin-bottom: 50px;
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+#menu-destino ul li {
+    background-color: rgb(214, 170, 246);
+    border-bottom: 6px solid rgb(48, 0, 83);
+    border-radius: 15px;
+    border-top: 2px solid #fed3d3;
+    margin: 15px 35px 0 0;
+    padding: 2px;
+    text-align: center;
+    text-shadow: 0px -1px #102749;
+}
+
+
+#menu-destino ul li:hover {
+    background-color: rgb(214, 170, 246);
+    border-bottom: 6px solid #fed3d3;
+    border-top: 2px solid rgb(48, 0, 83);
+    text-shadow: 0px 1px #102749;
+}
+
+/*------------------formatando rodapé------------------*/
+
+footer{
+    background-color: rgb(48, 0, 83);
+    clear: both;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    font-size: 1.1em;
+}
