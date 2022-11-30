@@ -1,8 +1,7 @@
 Meu primeiro projeto. (Vendo e Vivendo). <br>
 Página principal de um blog de turismo. <br>
 Feito puramente com HTML e CSS. <br>
-Menu lateral acompanha o movimento de rolagem até chegar no limite inferior. <br>
-Com css e usando um sistema de bordas fiz com que as caixas com os nomes no menu lateral tivessem uma aparencia de botões, usando o estado hover, faz parecer que eles estão sendo precionados.  <br> <br>
+Menu lateral acompanha o movimento de rolagem até chegar no limite inferior. <br><br>
 (Registro de evolução pessoal. Data: 04/11/2022)
 
 
